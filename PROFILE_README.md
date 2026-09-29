@@ -31,7 +31,7 @@ At **Existential Cloud**, I:
 *A battle-tested tactical field manual for returning to the US job market after caregiving, illness, or extended leave.*
 * **Origin**: Synthesized from 20+ viral X threads by tech leads and HR screening whistleblowers.
 * **Features**: ATS-proof single-column hybrid resume architecture, 1099 consulting bridge protocol, 30-second interview defensive scripts, and Python `.docx` book generators.
-* **Status**: Production Ready (US Edition & Bilingual Support).
+* **Status**: Production Ready (US Edition).
 
 ---
 
