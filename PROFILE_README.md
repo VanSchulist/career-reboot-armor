@@ -31,7 +31,13 @@ At **Existential Cloud**, I:
 *A battle-tested tactical field manual for returning to the US job market after caregiving, illness, or extended leave.*
 * **Origin**: Synthesized from 20+ viral X threads by tech leads and HR screening whistleblowers.
 * **Features**: ATS-proof single-column hybrid resume architecture, 1099 consulting bridge protocol, 30-second interview defensive scripts, and Python `.docx` book generators.
-* **Status**: Production Ready (US Edition).
+* **Status**: Production Ready (US Federal Edition).
+
+### 👻 [Ghost Job Hunter](https://github.com/VanSchulist/ghost-job-hunter)
+*An open-source heuristic engine & CLI for detecting phantom job postings, resume harvesting traps, and corporate hiring theater.*
+* **Origin**: Uncovered from recruiter confession leaks on X and pay transparency evasion loopholes.
+* **Features**: 5 diagnostic heuristic engines, Ghost Probability Index (GPI), zero external dependencies, and automated 1-page Executive Bypass Pitch generation.
+* **Status**: Production Ready (CLI v1.0.0).
 
 ---
 
