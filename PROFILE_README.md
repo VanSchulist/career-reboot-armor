@@ -8,8 +8,8 @@
  └──────────────────────────────────────────────────────────────┘
 ```
 
-[![Brand: Existential Cloud](https://img.shields.io/badge/Brand-Existential%20Cloud-black?style=for-the-badge&logo=icloud)](https://github.com/ExistentialCloud)
-[![Vibe Coder](https://img.shields.io/badge/Stack-Agentic%20Prompting%20%7C%20LLMs-8A2BE2?style=for-the-badge)](https://github.com/ExistentialCloud)
+[![Brand: Existential Cloud](https://img.shields.io/badge/Brand-Existential%20Cloud-black?style=for-the-badge&logo=icloud)](https://github.com/VanSchulist)
+[![Vibe Coder](https://img.shields.io/badge/Stack-Agentic%20Prompting%20%7C%20LLMs-8A2BE2?style=for-the-badge)](https://github.com/VanSchulist)
 [![X / Twitter](https://img.shields.io/badge/Intel%20Source-X%20(Twitter)-blue?style=for-the-badge&logo=x)](https://x.com)
 
 ---
@@ -27,7 +27,7 @@ At **Existential Cloud**, I:
 
 ## 🚀 Flagship Projects
 
-### 🛡️ [The Career Reboot Armor](https://github.com/ExistentialCloud/career-reboot-armor)
+### 🛡️ [The Career Reboot Armor](https://github.com/VanSchulist/career-reboot-armor)
 *A battle-tested tactical field manual for returning to the US job market after caregiving, illness, or extended leave.*
 * **Origin**: Synthesized from 20+ viral X threads by tech leads and HR screening whistleblowers.
 * **Features**: ATS-proof single-column hybrid resume architecture, 1099 consulting bridge protocol, 30-second interview defensive scripts, and Python `.docx` book generators.

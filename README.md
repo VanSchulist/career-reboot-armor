@@ -1,9 +1,9 @@
 # 🛡️ The Career Reboot Armor
 ### *A Tactical Field Manual for Returning to the US Job Market After Caregiving, Illness, or Extended Leave*
 
-[![Vibe Coded with Pride](https://img.shields.io/badge/Methodology-Vibe%20Coding-8A2BE2?style=flat-square&logo=openai)](https://github.com/ExistentialCloud)
-[![Jurisdiction: US Federal](https://img.shields.io/badge/Jurisdiction-US%20Federal%20(FCRA%2FEEOC)-blue?style=flat-square)](https://github.com/ExistentialCloud)
-[![ATS Compatibility](https://img.shields.io/badge/ATS%20Verified-Workday%20%7C%20Greenhouse%20%7C%20Taleo-success?style=flat-square)](https://github.com/ExistentialCloud)
+[![Vibe Coded with Pride](https://img.shields.io/badge/Methodology-Vibe%20Coding-8A2BE2?style=flat-square&logo=openai)](https://github.com/VanSchulist)
+[![Jurisdiction: US Federal](https://img.shields.io/badge/Jurisdiction-US%20Federal%20(FCRA%2FEEOC)-blue?style=flat-square)](https://github.com/VanSchulist)
+[![ATS Compatibility](https://img.shields.io/badge/ATS%20Verified-Workday%20%7C%20Greenhouse%20%7C%20Taleo-success?style=flat-square)](https://github.com/VanSchulist)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 > *"In modern hiring, an unmitigated 6-month career gap is treated like an algorithmic crime. This repository is the defense."*
@@ -55,7 +55,7 @@ The Career Reboot Armor
 
 ```bash
 # Clone the repository
-git clone https://github.com/ExistentialCloud/career-reboot-armor.git
+git clone https://github.com/VanSchulist/career-reboot-armor.git
 cd career-reboot-armor
 
 # Install dependencies
