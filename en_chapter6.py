@@ -33,7 +33,7 @@ def build_en_chapter_6(doc):
     add_heading_2(doc, "3. Common Mistakes: Desperation Begging vs. Cold LinkedIn Spam")
     doc.add_paragraph("Returners frequently squander their professional capital through two ineffective networking approaches:")
     doc.add_paragraph("• The Desperation Plea: Reaching out to old colleagues after three years of silence with an emotional message detailing their personal crisis, followed by 'Can you please submit my resume for any open role at your company?' This places an immense social burden on the recipient, resulting in awkward silence or polite evasion.")
-    doc.add_paragraph("• Impersonal LinkedIn Spam: Sending copy-pasted InMails to陌生 hiring managers: 'Hi, I'm interested in your open role, here is my resume.' Recruiters delete these instantly because they fail to demonstrate any understanding of the company's specific operational challenges.")
+    doc.add_paragraph("• Impersonal LinkedIn Spam: Sending copy-pasted InMails to unfamiliar hiring managers: 'Hi, I'm interested in your open role, here is my resume.' Recruiters delete these instantly because they fail to demonstrate any understanding of the company's specific operational challenges.")
 
     add_heading_2(doc, "4. The Correct Approach: The Warm-Contact Scouting Protocol")
     doc.add_paragraph(

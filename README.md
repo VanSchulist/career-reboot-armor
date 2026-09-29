@@ -12,7 +12,7 @@
 
 ## 🌩️ Origin & The Existential Cloud Story
 
-Hi, I'm **Van Schulist** (`@ExistentialCloud`). I'm a student in the US and an unapologetic **vibe coder**. 
+Hi, I'm **Van Schulist** (`@ExistentialCloud`). I'm an American undergraduate student and an unapologetic **vibe coder**. 
 
 A while back, I was reading through dozens of raw, heartbreaking threads on **X (formerly Twitter)**. Accomplished tech leads, directors, and operations managers in their 30s and 40s were getting wiped out by automated job portals after taking 1 to 4 years off to nurse dying parents, care for chronically ill spouses, or battle cancer. Quote-tweets from verified HR recruiters were chilling: *"Our ATS automatically downranks any candidate whose last role ended over 180 days ago."*
 
@@ -46,12 +46,12 @@ The Career Reboot Armor
 ## 📂 Deliverables Included
 
 1. **`The_Career_Reboot_Armor_US_Edition.docx`**: The complete, publication-formatted 50-page Word manual for the US market.
-2. **`重返职场战略护甲_求职实战指南.docx`**: The complete Chinese edition covering identical tactical methodologies.
-3. **`en_assemble.py` & Modular Chapter Builders**: The Python generator scripts powered by `python-docx` that compile the entire manual from source.
+2. **`en_assemble.py` & Modular Chapter Builders**: The Python generator scripts powered by `python-docx` that compile the entire manual from source.
+3. **`en_appendices.py`**: Ready-to-deploy ATS templates, micro-consulting SOW contracts, and verbal interview scripts.
 
 ---
 
-## 🚀 How to Run the Generators Locally
+## 🚀 How to Run the Generator Locally
 
 ```bash
 # Clone the repository
@@ -61,11 +61,8 @@ cd career-reboot-armor
 # Install dependencies
 pip install python-docx
 
-# Build the US Edition
+# Build the US Edition field manual
 python en_assemble.py
-
-# Build the Chinese Edition
-python assemble_book.py
 ```
 
 ---

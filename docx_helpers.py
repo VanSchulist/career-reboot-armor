@@ -19,7 +19,7 @@ def set_cell_margins(cell, top=100, bottom=100, left=150, right=150):
         tcMar.append(node)
     tcPr.append(tcMar)
 
-def add_callout(doc, text, title="注意与原则"):
+def add_callout(doc, text, title="CORE PRINCIPLE"):
     table = doc.add_table(rows=1, cols=1)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.autofit = False
@@ -44,7 +44,7 @@ def add_callout(doc, text, title="注意与原则"):
     p = cell.paragraphs[0]
     p.paragraph_format.space_before = Pt(2)
     p.paragraph_format.space_after = Pt(4)
-    run_title = p.add_run(f"【{title}】\n")
+    run_title = p.add_run(f"[{title}]\n")
     run_title.font.bold = True
     run_title.font.size = Pt(10.5)
     run_title.font.color.rgb = RGBColor(0x2B, 0x6C, 0xB0)
