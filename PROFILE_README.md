@@ -5,7 +5,7 @@
 [![Official Portal](https://img.shields.io/badge/Portal-existentialcloud.ccwu.cc-10b981?style=flat-square)](https://www.existentialcloud.ccwu.cc)
 [![Flagship: mcp-mesh](https://img.shields.io/badge/Flagship-mcp--mesh%20v1.3.0-0ea5e9?style=flat-square)](https://github.com/VanSchulist/mcp-mesh)
 [![Architecture: Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Stdlib)-zinc?style=flat-square)](https://github.com/VanSchulist/mcp-mesh#architecture)
-[![Test Suite: 100% Pass](https://img.shields.io/badge/Tests-127%2F127%20Passed-10b981?style=flat-square)](https://github.com/VanSchulist/mcp-mesh/actions)
+[![Test Suite: 100% Pass](https://img.shields.io/badge/Tests-159%2F159%20Passed-10b981?style=flat-square)](https://github.com/VanSchulist/mcp-mesh/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
@@ -22,7 +22,7 @@ Modern coding agents are bottlenecked by context bloat: connecting 10 Model Cont
  │               Claude Desktop  │  Cursor  │  Google Antigravity         │
  └───────────────────────────────────┬────────────────────────────────────┘
                                      │ stdio (JSON-RPC 2.0)
-                                     │ Only 4 Meta-Tools Exposed (~380 tokens)
+                                     │ Only 4 Meta-Tools Exposed (527 tokens, 94.6% reduction)
                                      ▼
  ┌────────────────────────────────────────────────────────────────────────┐
  │                   mcp-mesh v1.3.0 Federation Gateway                   │
@@ -80,7 +80,7 @@ uvx mcp-mesh stats --db
 
 * 🚀 **Zero External Dependencies**: All core libraries and CLI tools are engineered strictly with the Python standard library (`concurrent.futures`, `json`, `sqlite3`, `http.server`, `urllib`, `re`). Runs anywhere without `pip install` friction.
 * 🧠 **Context-Window Economics**: AI agents should never be forced to parse 50 static schemas at Turn 0. Compact signatures and lazy on-demand resolution save dollars and eliminate tool hallucinations.
-* 🛡️ **Defensive Reliability**: Automated circuit breakers, threaded watchdog timeouts, non-blocking JSON-RPC notification semantics, and 100% passing synchronous unit test suites (127/127 tests passing).
+* 🛡️ **Defensive Reliability**: Automated circuit breakers, threaded watchdog timeouts, non-blocking JSON-RPC notification semantics, and 100% passing test suites across ecosystem (159/159 tests passing).
 
 ---
 

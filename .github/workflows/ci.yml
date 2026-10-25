@@ -1,0 +1,48 @@
+name: CI Build & Document Compilation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build Document Manual (Python ${{ matrix.python-version }} on ${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Dependencies
+        run: |
+          pip install python-docx
+
+      - name: Compile US Edition Manual from Source
+        run: |
+          python en_assemble.py
+
+      - name: Verify Generated Deliverable Integrity
+        run: |
+          python -c "
+          import os
+          f = 'The_Career_Reboot_Armor_US_Edition.docx'
+          assert os.path.exists(f), 'Compiled document does not exist'
+          size = os.path.getsize(f)
+          assert size > 50000, f'Compiled document size too small: {size} bytes'
+          print(f'Integrity verified: {f} ({size / 1024:.2f} KB)')
+          "
