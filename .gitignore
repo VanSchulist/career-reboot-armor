@@ -15,6 +15,7 @@ mcp-mesh-eval/
 mcp-mesh-ui/
 mcp-registry-cli/
 outreach/
+VanSchulist/
 
 # Generated Binary Deliverables (Compiled on Release)
 *.docx
