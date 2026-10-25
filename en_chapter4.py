@@ -61,7 +61,7 @@ def build_en_chapter_4(doc):
                   "Learn to create single-select tags, link records between tables, and configure one automated notification trigger (e.g., send a notification when status changes to 'Approved'). Time required: 3 hours.")
 
     doc.add_paragraph("Day 2: Build a Domain-Specific GenAI Workstream\n"
-                  "Take a complex document from your past career (a financial audit, an operational SOP, a marketing brief). Open an advanced LLM (ChatGPT Plus, Claude 3.5 Sonnet). "
+                  "Take a complex document from your past career (a financial audit, an operational SOP, a marketing brief). Open an advanced LLM (ChatGPT, Claude Sonnet). "
                   "Practice structured prompting using the 4-part framework: Role + Context + Task Constraints + Output Schema. "
                   "Prompt: 'Act as a Senior Compliance Officer. Review this 10-page policy document against current industry standards. Identify 3 ambiguous clauses, and output a 4-column Markdown table summarizing: Clause, Risk, Recommended Edit, and Justification.' Time required: 3 hours.")
 
