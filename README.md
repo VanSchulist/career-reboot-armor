@@ -4,6 +4,7 @@
 [![Vibe Coded with Pride](https://img.shields.io/badge/Methodology-Vibe%20Coding-8A2BE2?style=flat-square&logo=openai)](https://github.com/VanSchulist)
 [![Jurisdiction: US Federal](https://img.shields.io/badge/Jurisdiction-US%20Federal%20(FCRA%2FEEOC)-blue?style=flat-square)](https://github.com/VanSchulist)
 [![ATS Compatibility](https://img.shields.io/badge/ATS%20Verified-Workday%20%7C%20Greenhouse%20%7C%20Taleo-success?style=flat-square)](https://github.com/VanSchulist)
+[![Download Latest DOCX](https://img.shields.io/badge/Download-US%20Edition%20DOCX-10b981?style=flat-square&logo=microsoftword)](https://github.com/VanSchulist/career-reboot-armor/releases/latest/download/The_Career_Reboot_Armor_US_Edition.docx)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 > *"In modern hiring, an unmitigated 6-month career gap is treated like an algorithmic crime. This repository is the defense."*
@@ -45,7 +46,7 @@ The Career Reboot Armor
 
 ## 📂 Deliverables Included
 
-1. **`The_Career_Reboot_Armor_US_Edition.docx`**: The complete, publication-formatted 50-page Word manual for the US market.
+1. **`The_Career_Reboot_Armor_US_Edition.docx`**: The complete, publication-formatted 50-page Word manual for the US market. ([Download Latest Release DOCX](https://github.com/VanSchulist/career-reboot-armor/releases/latest/download/The_Career_Reboot_Armor_US_Edition.docx) or build from source with `python en_assemble.py`).
 2. **`en_assemble.py` & Modular Chapter Builders**: The Python generator scripts powered by `python-docx` that compile the entire manual from source.
 3. **`en_appendices.py`**: Ready-to-deploy ATS templates, micro-consulting SOW contracts, and verbal interview scripts.
 

@@ -16,4 +16,8 @@ mcp-mesh-ui/
 mcp-registry-cli/
 outreach/
 
+# Generated Binary Deliverables (Compiled on Release)
+*.docx
+The_Career_Reboot_Armor_US_Edition.docx
+
 

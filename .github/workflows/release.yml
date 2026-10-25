@@ -1,0 +1,49 @@
+name: Release & Asset Compilation
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Build Document & Publish Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install python-docx
+
+      - name: Compile US Edition Manual from Source
+        run: |
+          python en_assemble.py
+
+      - name: Verify Generated Deliverable Integrity
+        run: |
+          python -c "
+          import os
+          f = 'The_Career_Reboot_Armor_US_Edition.docx'
+          assert os.path.exists(f), 'Compiled document does not exist'
+          size = os.path.getsize(f)
+          assert size > 50000, f'Compiled document size too small: {size} bytes'
+          print(f'Release asset verified: {f} ({size / 1024:.2f} KB)')
+          "
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: The_Career_Reboot_Armor_US_Edition.docx
+          generate_release_notes: true
