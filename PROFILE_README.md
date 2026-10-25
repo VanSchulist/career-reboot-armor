@@ -3,9 +3,10 @@
 > **Building low-latency agent infrastructure, Model Context Protocol gateways, and zero-dependency developer tools. Founder of [Existential Cloud](https://www.existentialcloud.ccwu.cc).**
 
 [![Official Portal](https://img.shields.io/badge/Portal-existentialcloud.ccwu.cc-10b981?style=flat-square)](https://www.existentialcloud.ccwu.cc)
+[![Live Simulator](https://img.shields.io/badge/Simulator-GitHub%20Pages-10b981?style=flat-square)](https://vanschulist.github.io/existentialcloud-portal/)
 [![Flagship: mcp-mesh](https://img.shields.io/badge/Flagship-mcp--mesh%20v1.3.0-0ea5e9?style=flat-square)](https://github.com/VanSchulist/mcp-mesh)
 [![Architecture: Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Stdlib)-zinc?style=flat-square)](https://github.com/VanSchulist/mcp-mesh#architecture)
-[![Test Suite: 100% Pass](https://img.shields.io/badge/Tests-159%2F159%20Passed-10b981?style=flat-square)](https://github.com/VanSchulist/mcp-mesh/actions)
+[![Test Suite: 100% Pass](https://img.shields.io/badge/Tests-161%2F161%20Passed-10b981?style=flat-square)](https://github.com/VanSchulist/mcp-mesh/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
